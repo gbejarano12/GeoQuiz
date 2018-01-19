@@ -20,6 +20,11 @@ public class QuizActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz);
 
+        String xmlQuestions[] = getResources().getStringArray(R.array.questions);
+        String xmlAnswers[] = getResources().getStringArray(R.array.answers);
+
+
+
         mTrueButton = (Button) findViewById(R.id.true_button);
         mTrueButton.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -1,8 +1,23 @@
 <resources>
     <string name="app_name">GeoQuiz</string>
-    <string name="question_text">In a game of baseball, if you get 3 strikes then your out.</string>
     <string name="true_button">True</string>
     <string name="false_button">False</string>
     <string name="correct_toast">Correct!</string>
     <string name="incorrect_toast">Incorrect!</string>
+    <string-array name="questions">
+        <item>In a game of baseball, if you get 3 strikes then your out.</item>
+        <item>The strike zone is always the same size for every umpire.</item>
+        <item>If the ball is hit down the line and goes into foul territory after it has passed
+        1st or 3rd base, the play is dead and the batter goes back to the plate.</item>
+        <item>If the pitcher bocks while there is someone on base, the base-runner advances
+        to the next base for free.</item>
+        <item>42 is a special number in baseball.</item>
+    </string-array>
+    <string-array name="answers">
+        <item>T</item>
+        <item>F</item>
+        <item>F</item>
+        <item>T</item>
+        <item>T</item>
+    </string-array>
 </resources>
