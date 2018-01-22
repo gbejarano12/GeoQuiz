@@ -8,24 +8,24 @@ public class Question {
     int mTextResId;
     boolean mAnswerTrue;
 
-    void Question(int qNum, boolean ans){
+    Question(int qNum, boolean ans){
         mTextResId = qNum;
         mAnswerTrue = ans;
     }
 
     boolean getAnswerTrue() {
-        return true;
+        return mAnswerTrue;
     }
 
     int getTextResId() {
-        return 0;
+        return mTextResId;
     }
 
     void setAnswerTrue(boolean ans) {
-
+        mAnswerTrue = ans;
     }
 
     void setTextResId(int qNum) {
-
+        mTextResId = qNum;
     }
 }
