@@ -13,4 +13,7 @@
     <string name="question_bock">If the pitcher bocks while there is someone on base, the base-runner advances
         to the next base for free.</string>
     <string name="question_jackie">42 is a special number in baseball.</string>
+    <string name="warning_text">Are you sure you want to cheat?</string>
+    <string name="show_answer_button">Show Answer</string>
+    <string name="cheat_button">Cheat!</string>
 </resources>
